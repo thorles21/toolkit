@@ -156,10 +156,13 @@ logger(){
     fi
 }
 
-#Example execution:
-#loglevel::,logfile::,no_stdout
-logconfig --loglevel=debug #--no_stdout #--logfile='./mylog.txt'
-logger "debug" "This is a debug message"
-logger "info" "This is an info message"
-logger "warn" "This is a warning message"
-logger "error" "This is an error message"
+##############################################################################
+#    Example execution:                                                      #
+#                                                                            #
+#    logconfig --loglevel=debug #--no_stdout #--logfile='./mylog.txt'        #
+#                                                                            #
+#    logger "debug" "This is a debug message"                                #
+#    logger "info" "This is an info message"                                 #
+#    logger "warn" "This is a warning message"                               #
+#    logger "error" "This is an error message"                               #
+##############################################################################
